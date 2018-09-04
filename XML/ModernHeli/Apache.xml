@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/16/2014 5:39:01 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_APACHE</Class>
+			<Type>UNIT_APACHE</Type>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<Combat>85</Combat>
+			<Cost>400</Cost>
+			<Moves>7</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_APACHE</Description>
+			<Civilopedia>TXT_KEY_UNIT_APACHE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_APACHE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_APACHE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_APACHE</UnitArtInfo>
+			<UnitFlagAtlas>UNITS_APACHE_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>UNITS_APACHE_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_APACHE</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>

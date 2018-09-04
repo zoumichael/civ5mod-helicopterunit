@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/16/2014 5:57:35 PM -->
+<GameData>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<UnitClassType>UNITCLASS_APACHE</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_MOBILE_TACTICS"/>
+			<Where Type="UNIT_HELICOPTER_GUNSHIP"/>
+		</Update>
+	</Units>
+</GameData>

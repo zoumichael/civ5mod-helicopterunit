@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/16/2014 5:38:16 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_APACHE</Type>
+			<Description>TXT_KEY_UNIT_APACHE</Description>
+			<DefaultUnit>UNIT_APACHE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+</GameData>

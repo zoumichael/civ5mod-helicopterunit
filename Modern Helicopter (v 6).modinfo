@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b409b7c-a0b6-4588-b20a-360031428316" version="6">
+  <Properties>
+    <Name>Modern Helicopter</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>The Modern Helicopter is an upgraded Helicopter Gunship that is avaliable in the information era. The Modern Helicopter has a p</Teaser>
+    <Description>The Modern Helicopter is an upgraded Helicopter Gunship that is avaliable in the information era. The Modern Helicopter has a power of 85, movement speed of 7 and an 100% bonus against armored units. Allowing it to overpower Giant Death Robots which can make late game domination victory more enjoyable.</Description>
+    <Authors>Michael</Authors>
+    <SpecialThanks>WolfDog, Tofusojo</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7050A1DD3ABE16B646D0CF675FA00C54" import="1">Art/IconAtlas128.dds</File>
+    <File md5="A790DDBEAEEA6D918A475522C07EF917" import="1">Art/IconAtlas256.dds</File>
+    <File md5="024D5496EA4369814B78B49875F9B8B2" import="1">Art/IconAtlas45.dds</File>
+    <File md5="9616D652918AB07C023BFA0531166913" import="1">Art/IconAtlas64.dds</File>
+    <File md5="B76946708A25F8F9873F1D671F87483C" import="1">Art/IconAtlas80.dds</File>
+    <File md5="56AE3669C7B094969253EB1CAC48E96A" import="1">Art/IconAtlasFlag.dds</File>
+    <File md5="724DD6082E3B52EE66C59874ACFA0FA5" import="1">Art/Model/Tiger_diff(german).dds</File>
+    <File md5="D827BDFE22B39970863A9E49B8D66776" import="1">Art/Model/tiger_germany.fxsxml</File>
+    <File md5="612EF5D9B4469E114594996666942E65" import="1">Art/Model/Tiger_Germany.gr2</File>
+    <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Model/Tiger_sref.dds</File>
+    <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
+    <File md5="47E68D42058D7120B630A55A5E618AE0" import="0">XML/ArtDef/ArtDef.xml</File>
+    <File md5="B81C9E091856D2D85B64D924C1780002" import="0">XML/GameInfo/IconTextureAtlas.xml</File>
+    <File md5="4962B51935D31EBCFF6DFD36CE4084D9" import="0">XML/ModernHeli/Apache.xml</File>
+    <File md5="F2DF035B5C7EA496F13FBEAEBF9E6F01" import="0">XML/ModernHeli/UnitClass.xml</File>
+    <File md5="7F652A4E7FBECF8C8FF6BEF51DCC84B1" import="0">XML/ModernHeli/UpdatePath.xml</File>
+    <File md5="2C666096E185E73A7F67E8B6072A091F" import="0">XML/Text/GameText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GameInfo/IconTextureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ArtDef/ArtDef.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ModernHeli/Apache.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ModernHeli/UnitClass.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ModernHeli/UpdatePath.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

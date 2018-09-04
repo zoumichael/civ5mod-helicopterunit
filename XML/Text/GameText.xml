@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/16/2014 5:46:29 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_APACHE">
+			<Text>Modern Helicopter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_APACHE_HELP">
+			<Text>Unit specialized in fighting Modern Armor and Giant Death Robots. It is capable of hovering over mountains, but takes damage if ending its turn on one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_APACHE_STRATEGY">
+			<Text>The Modern Helicopter is a deadly air unit that in most respects acts like any ground unit, except that it cannot capture cities. Its movement of 7 makes it extremely quick, and it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. Modern Helicopters receive a hefty combat bonus when fighting tanks. It's strength of 85 and its ability to outflank opponents allows it to triumph over Giant Death Robots.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_APACHE_TEXT">
+			<Text>The Boeing AH-64 Apache is a four-blade, twin-engine attack helicopter with a tailwheel-type landing gear arrangement, and a tandem cockpit for a two-man crew. It features a nose-mounted sensor suite for target acquisition and night vision systems. It is armed with a 30 mm (1.18 in) M230 Chain Gun carried between the main landing gear, under the aircraft's forward fuselage. It has four hardpoints mounted on stub-wing pylons, typically carrying a mixture of AGM-114 Hellfire missiles and Hydra 70 rocket pods. The AH-64 has a large amount of systems redundancy to improve combat survivability.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
